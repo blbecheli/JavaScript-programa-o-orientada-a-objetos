@@ -1,0 +1,21 @@
+{
+  "name": "javascript-programacao-orientada-a-objetos",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "User.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blbecheli/JavaScript-programa-o-orientada-a-objetos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blbecheli/JavaScript-programa-o-orientada-a-objetos/issues"
+  },
+  "homepage": "https://github.com/blbecheli/JavaScript-programa-o-orientada-a-objetos#readme"
+}

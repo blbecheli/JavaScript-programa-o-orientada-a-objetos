@@ -23,17 +23,6 @@ Object.setPrototypeOf(admin, user)
 admin.criarCurso()
 admin.exibirInfos()
 
-
-
-
-
-
-
-
-
-
-
-
 // user.exibirInfos()
 // const exibir = user.exibirInfos
 
