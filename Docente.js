@@ -1,7 +1,7 @@
 import User from "./User.js";
 
 
-class Docente extends User { //extends pois ela está buscando informações da classe User, importada do outro arquivo
+export default class Docente extends User { //extends pois ela está buscando informações da classe User, importada do outro arquivo
     constructor(nome, email, nascimento, role = 'docente', ativo = true) {
         super(nome, email, nascimento, role, ativo)
     }

@@ -5,8 +5,12 @@ export default class Admin extends User { //extends pois ela está buscando info
         super(nome, email, nascimento, role, ativo) //Superclasse é como chamamos a classe que está fornecendo os parâmetros e os métodos para a outra classe herdar. Então user é uma superclasse de Admin e a Admin é uma subclasse de user. Pode se usar somente os parametros que forem necessários
     }
 
-    criarCurso(nomeDoCurso, vagas){
-        return`Curso de ${nomeDoCurso} criado com ${vagas} vagas`
+    exibirInfos() {  //em uma classe eu não preciso digitar a palavra function antes de uma função (método)
+        return `${this.nome}, ${this.role}, ${this.ativo}` //retornam os parametros do get, e não da classe privada
+    }
+
+    criarCurso(nomeDoCurso, vagas) {
+        return `Curso de ${nomeDoCurso} criado com ${vagas} vagas`
     }
 }
 
